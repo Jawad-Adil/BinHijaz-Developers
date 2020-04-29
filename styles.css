@@ -1,0 +1,230 @@
+body {
+  font-family: "Montserrat-black", sans-serif;
+}
+
+#title {
+  background-color: #263f44;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+
+}
+
+.nav-item {
+  padding-right: 15px;
+}
+
+.nav-link {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img {
+  width: 100%;
+}
+
+/* feature section */
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon {
+  color: #015668;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #263f44;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #015668;
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+/* my team */
+#team {
+  padding: 7% 15%;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title p {
+  color: #777;
+  font-size: 16px;
+}
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.section-title h4:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #00adb5;
+  bottom: 0;
+  left: 50%;
+  margin-left: -30px;
+}
+.section-title h4:after {
+  position: absolute;
+  background-color: #00adb5;
+  content: "";
+  width: 10px;
+  height: 10px;
+  bottom: -4px;
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 50%;
+}
+
+.single-team img {
+  width: 100%;
+}
+.single-team {
+  position: relative;
+}
+.team-hover {
+  background-color: #00adb5;
+  color: #fff;
+  position: absolute;
+  bottom: -107px;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.team-hover h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.team-hover h4 span {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.team-hover a {
+  display: inline-block;
+  color: #fff;
+  padding: 0 5px;
+}
+.single-team:hover .team-hover {
+  bottom: 0;
+}
+.single-team {
+  overflow: hidden;
+}
+
+/* cta section */
+
+#cta {
+  background-color: #263f44;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon-p {
+  margin: 10px 10px;
+}
+
+.icon-p:hover {
+  color: #263f44;
+}
+
+/* media query  */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  h2 {
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
